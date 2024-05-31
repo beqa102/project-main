@@ -1,0 +1,252 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    color: rgb(197, 196, 196);
+    align-items: center;
+    overflow-x: hidden;
+}
+.header{
+    width: 100%;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #402101;
+    position: fixed;
+    left: 0px;
+}
+.header-nav ul li{
+    list-style: none;
+}
+.header-nav ul li a{
+    transition: 0.3s;
+}
+.header-nav ul li a:hover{
+    text-decoration: underline 2px solid #D5906E;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    height: 22px;
+}
+.header-nav ul{
+    width: 300px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    display: flex;
+    width: 234px;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.shop-div{
+    width: 92px;
+    height: 22px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.cart-img{
+    width: 20px;
+    height: 20px;
+}
+.active{
+    color: #D5906E;
+}
+a{
+    all: unset;
+    cursor: pointer;
+}
+.letter{
+    color: #D5906E;
+}
+h1{
+    color: #FFFFFF;;
+}
+.section-main{
+    margin-top: 96px;
+    width: 100%;
+    height: 1585px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EA904F;
+}
+.shop-sort{
+    margin-top: 120px;
+    width: 1200px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.shop-sort button{
+    width: 160px;
+    height: 45px;
+    border-radius: 5px;
+    border: 2px solid #B53B1B;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.product{
+    background-color: #FFFFFF;
+    width: 384px;
+    height: 339px;
+    border-radius: 8px;
+    border: 0 0 2px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 16px;
+    transition:0.3s;
+}
+.product:hover{
+    box-shadow: 5px 10px 15px black;
+}
+.products{
+    width: 1200px;
+    height: 1050px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 70px;
+}
+.picture{
+    width: 100%;
+    height: 184px;
+    border-radius: 8px 8px 0px 0px;
+}
+.bottom{
+    width: 100%;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pt{
+    font-size: 18px;
+    color: #B53B1B;
+    font-weight: 700;
+}
+.bottom p{
+    color: 
+    #402101;
+    font-size: 24px;
+}
+.bottom button{
+    width: 40px;
+    height: 40px;
+    background-color: #B53B1B;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: white;
+    transition: 0.3s;
+}
+.bottom button:hover{
+    background-color: #762714;
+}
+a{
+    cursor: pointer;
+}
+.contact{
+    width: 100%;
+    height: 314px;
+    background-color: #402101;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo2{
+    display: flex;
+    width: 234px;
+    font-size: 18px;
+    font-weight: 400;
+    height: 44px;
+}
+.letter{
+    color: #D5906E;
+}
+.help{
+    width: 180px;
+    height: 154px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.help li{
+    margin-bottom: 10px;
+    list-style: none;
+}
+.help h2{
+    font-size: 18px;
+}
+.socials{
+    width: 100%;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info{
+    width: 184px;
+    height: 104px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.info div{
+    display: flex;
+}
+.info div p{
+    margin-left: 10px;
+}
+.div1{
+    background-color: #B53B1B;
+}
+.mama{
+    width: 447px;
+    height: 56px;
+    display: flex;
+    margin-top: 72px;
+}
+.mama div{
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.mama div p{
+    color: white;
+    font-size: 18px;
+}
+.mama div:hover{
+    position: relative;
+    width: 60px;
+    height: 60px;
+}
